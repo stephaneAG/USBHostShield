@@ -3,6 +3,7 @@ repo dedicated to hacks done using the USB Host Library V2.0 from Circuits@Home
 
 <img src="https://camo.githubusercontent.com/705fb76e24f666e97bab97272c7f7f8f28a641f7/687474703a2f2f73686f702e746b6a656c656374726f6e6963732e646b2f696d616765732f5553425f486f73745f536869656c64312e6a7067"/>
 <img src="https://cdn.sparkfun.com//assets/parts/4/0/6/5/09947-01b.jpg"/>
+<img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/1A/27/8ed16b9a-7dfc-44be-be77-55f602a5561d.jpeg"/>
 
 ### A little (sad) story :/
 Few days ( hours ? ) ago, I was digging how to receive HID devices ( keyboard & mouse ) data ( keystrokes & movements ) to an Arduino, in wired ( usb ) & wireless ( bluetooth ) setups.
