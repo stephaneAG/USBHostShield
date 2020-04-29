@@ -39,6 +39,8 @@ Also, VERY BIG THANKS ( as usual ) to the devs responsible for the USB Host Libr
 
 Last but not least ( just in case ), the lib/code I reference was available since 2013, so no excuse on this, sorry ;) ..
 
+R: the author is a ```Robotics Engineer with experience ranging from Robotics Research at UPenn, Teaching at MIT, and Automated Manufacturing Engineering at United Technologies, who writes technical tutorials that anyone can follow and provides tips and tricks to help engineers grow their careers, and who has authored over 100 pieces of unique content on this site```, from what we can red on the tutorial's page ...
+
 ### paying for crappy stuff & then raging in a comment, my way
 
 Here's the link to the tutorial claiming to allow controlling an Arduino via a bluetooth keyboard BUT instead showing how to send keystrokes from a computer's keyboard to an Arduino via bluetooth serial connection ( SPP ):
@@ -70,6 +72,7 @@ The methodology outlined in this article should get you started. If you don’t 
 ```
 
 R: the 'whole' comments have been copied to the 'tutComms.md' file ( just to make sure it wouldn't be deleted & no longer accessible, hopefully I won't get into troubles for saving those here ..
+ps: my comment still hasn't been approved ( wondering why ? .. ), but I'd be delighted for it to be, as well as being given hints on what I was looking for ( & so do other people commenting & receiving a 'shorter than succint' answer from a technical person point of view .. )
 
 ### What we' interested in ( yay! )
 
