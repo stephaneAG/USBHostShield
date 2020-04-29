@@ -1,6 +1,9 @@
 # USBHostShield
 repo dedicated to hacks done using the USB Host Library V2.0 from Circuits@Home
 
+<img src="https://camo.githubusercontent.com/705fb76e24f666e97bab97272c7f7f8f28a641f7/687474703a2f2f73686f702e746b6a656c656374726f6e6963732e646b2f696d616765732f5553425f486f73745f536869656c64312e6a7067"/>
+<img src="https://cdn.sparkfun.com//assets/parts/4/0/6/5/09947-01b.jpg"/>
+
 ### A little (sad) story :/
 Few days ( hours ? ) ago, I was digging how to receive HID devices ( keyboard & mouse ) data ( keystrokes & movements ) to an Arduino, in wired ( usb ) & wireless ( bluetooth ) setups.
 
@@ -87,3 +90,16 @@ The code for all of this is hosted in the current repo, with naming conventions 
 
 Enjoy, and give kudos to the lib's devs: they are the ones we should give money to in the 1st place ...
 +
+
+### libraries , hardware & troubleshooting
+
+The library that made all of this possible, big thnaks & kudos to its devs !!!
+https://github.com/felis/USB_Host_Shield_2.0
+
+I currently only own the Sparkfun rev 1.3 ( 09947 ) version of the shield, which works fine with the code hosted in the present repo.
+If you have the older version, just invert the 2 pins used in the '```#define```' for D7/D8 ( that respectively go to MAX pin 12 & pin 17 ).
+To identify the version ( since no revision label is present on the shield ), look for traces going from Arduino pins D7 & D8 &  compare to the pictures on the Sparkfun website ( at least that's how I did it .. ):
+https://www.sparkfun.com/products/9947
+https://www.sparkfun.com/products/retired/9628
+If owning another shield ( ex: the one displayed on the felis github repo ), comment out he relevant code & things should 'just work'
+( I have ordered the tiny shields providing the same USB Hosting capabilities &'ll see when those arrive if they need any tweak(s) ) )
