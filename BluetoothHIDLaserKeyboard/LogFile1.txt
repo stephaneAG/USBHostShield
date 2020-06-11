@@ -1,0 +1,94 @@
+
+BTHID bthid(&Btd, PAIR, "");
+bthid.setProtocolMode(USB_HID_BOOT_PROTOCOL); // Boot Protocol Mode
+
+====
+
+HID Bluetooth Library Started
+BTD ConfigureDevice
+BTD Init
+Addr: 01
+Endpoint descriptor:
+Length:		07
+Type:		05
+Address:	81
+Attributes:	03
+MaxPktSize:	0010
+Poll Intrv:	01
+Endpoint descriptor:
+Length:		07
+Type:		05
+Address:	02
+Attributes:	02
+MaxPktSize:	0040
+Poll Intrv:	01
+Endpoint descriptor:
+Length:		07
+Type:		05
+Address:	82
+Attributes:	02
+MaxPktSize:	0040
+Poll Intrv:	01
+Bluetooth Dongle Initialized
+HCI event error: 07
+ACL data in error: 0E
+HCI event error: 0E
+ACL data in error: 0D
+HCI event error: 0D
+ACL data in error: 0E
+HCI event error: 0D
+No response to HCI Reset
+HCI Reset complete
+Write class of device
+Local Bluetooth Address: 00:1A:7D:DA:71:13
+Please enable discovery of your device
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+HCI event error: 07
+HCI event error: 07
+HCI event error: 07
+ACL data in error: 07
+Number of responses: 1
+Class of device: 00 05 40
+Keyboard found
+HID device found
+Now just create the instance like so:
+BTHID bthid(&Btd);
+And then press any button on the device
+Connecting to HID device
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+ACL data in error: 07
+HCI event error: 07
+ACL data in error: 0D
+HCI event error: 0E
+HCI event error: 0E
+HCI event error: 0D
+Connection established
+Connected to HID device
+ACL data in error: 0D
+ACL data in error: 0D
+HCI event error: 0E
+ACL data in error: 0D
+HCI event error: 0D
+ACL data in error: 0E
+ACL data in error: 0E
+ACL data in error: 0E
+ACL data in error: 0D
+Received Key Request
+HCI event error: 0D
+ACL data in error: 0D
+HCI event error: 0D
+ACL data in error: 0D
+HCI event error: 0D
+ACL data in error: 0D
